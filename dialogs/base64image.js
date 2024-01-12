@@ -443,7 +443,7 @@ CKEDITOR.dialog.add("base64imageDialog", function(editor){
 								type: "text",
 								width: "45px",
 								id: "width",
-								label: editor.lang.common.width
+								label: "Chiều rộng"
 							},
 							{
 								type: "text",

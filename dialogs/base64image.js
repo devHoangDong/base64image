@@ -299,8 +299,8 @@ CKEDITOR.dialog.add("base64imageDialog", function(editor){
 					orgHeight = selectedImg.$.height;
 				}
 				if(orgWidth != null && orgHeight != null) {
-					t.setValueOf("tab-properties", "width", orgWidth);
-					t.setValueOf("tab-properties", "height", orgHeight);
+					t.setValueOf("tab-properties", "width", "100%");
+					t.setValueOf("tab-properties", "height", "100%");
 					orgWidth = parseInt(orgWidth, 10);
 					orgHeight = parseInt(orgHeight, 10);
 					imgScal = 1;
